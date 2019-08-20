@@ -8,7 +8,7 @@ Plug 'vim-airline/vim-airline'
 call plug#end()
 
 syntax on
-set number
+set number relativenumber
 set laststatus=2
 set colorcolumn=81
 colorscheme monokai
