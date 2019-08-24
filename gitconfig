@@ -1,0 +1,7 @@
+[user]
+	name = Steven Blowers
+	email = steven@shdblowers.com
+[core]
+	editor = vim
+[commit]
+	template = /Users/steven/.gitmessage.txt
