@@ -4,6 +4,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'crusoexia/vim-monokai'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'kana/vim-smartinput'
 
 call plug#end()
 
