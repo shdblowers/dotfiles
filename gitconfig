@@ -4,4 +4,4 @@
 [core]
 	editor = vim
 [commit]
-	template = /Users/steven/.gitmessage.txt
+	template = ~/.gitmessage.txt
