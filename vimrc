@@ -1,3 +1,4 @@
+" Plugins
 call plug#begin('~/.vim/plugged')
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
@@ -8,21 +9,23 @@ Plug 'kana/vim-smartinput'
 
 call plug#end()
 
-" display
+" Looks
 syntax on
 set number relativenumber
 set laststatus=2
 set colorcolumn=81
 colorscheme monokai
 
-" tabs vs. spaces
+" Tabs/Spaces
 set tabstop=4
 set shiftwidth=4
 
-" indentation
+" Indentation
 set ai
 set si
 
-" case-sensetivity for searching
-:set ignorecase
-:set smartcase
+" Searching
+set ignorecase
+set smartcase
+set hlsearch	" highlight search terms
+set incsearch   " show search matches as you type
